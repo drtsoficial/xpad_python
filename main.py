@@ -156,7 +156,7 @@ class Notepad:
 
 		if self.__file == None:
 			# Save as new file
-			self.__file = asksaveasfilename(initialfile='xpad.txt',
+			self.__file = asksaveasfilename(initialfile='Xpad.txt',
 											defaultextension=".txt",
 											filetypes=[("All Files","*.*"),
 												("Text Documents","*.txt")])
